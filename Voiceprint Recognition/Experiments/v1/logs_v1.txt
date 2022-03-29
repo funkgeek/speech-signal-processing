@@ -1,0 +1,99 @@
+n_mels : 80
+use_meldatadir_name : ./meldata_22k_trimed
+total_iters : 1500
+device : cpu
+model_save_every : 200
+lr_update_every : 200
+eval_every : 50
+train_ratio : 0.9
+mel_seglen : 128
+min_train_mellen : 120
+batchsize_train : 12
+lr_start : 0.0001
+beta1 : 0.9
+beta2 : 0.999
+amsgrad : True
+weight_decay : 0.0001
+grad_norm : 3
+is_lr_decay : False
+speaker_nums : 5
+epdir : Experiments
+ep_version : v1
+ep_version_dir : Experiments\v1
+model_savedir : Experiments\v1\checkpoints_v1
+hp_filepath : Experiments\v1\hparams_v1.pickle
+ep_logfilepath : Experiments\v1\logs_v1.txt
+ep_logfilepath_eval : Experiments\v1\logs_eval_v1.txt
+conversion_dir : Experiments\v1\conversion_result_v1
+--------------------------------------------------Experiment & Hparams Created--------------------------------------------------
+****************************************************************************************************
+train_step--:,epoch:0,steps:1,loss:1.6057385206222534,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:2,loss:1.6062639951705933,acc:0.25,
+train_step--:,epoch:0,steps:3,loss:1.5949805974960327,acc:0.25,
+train_step--:,epoch:0,steps:4,loss:1.5667613744735718,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:5,loss:1.6000560522079468,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:6,loss:1.6083472967147827,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:7,loss:1.5929697751998901,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:8,loss:1.6190012693405151,acc:0.25,
+train_step--:,epoch:0,steps:9,loss:1.6358556747436523,acc:0.08333333333333333,
+train_step--:,epoch:0,steps:10,loss:1.6159573793411255,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:11,loss:1.6100150346755981,acc:0.25,
+train_step--:,epoch:0,steps:12,loss:1.6281400918960571,acc:0.08333333333333333,
+train_step--:,epoch:0,steps:13,loss:1.6115316152572632,acc:0.0,
+train_step--:,epoch:0,steps:14,loss:1.595575213432312,acc:0.25,
+train_step--:,epoch:0,steps:15,loss:1.620941162109375,acc:0.25,
+train_step--:,epoch:0,steps:16,loss:1.6094112396240234,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:17,loss:1.651300072669983,acc:0.0,
+train_step--:,epoch:0,steps:18,loss:1.608772873878479,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:19,loss:1.6061110496520996,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:20,loss:1.5934041738510132,acc:0.08333333333333333,
+train_step--:,epoch:0,steps:21,loss:1.5956697463989258,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:22,loss:1.6107583045959473,acc:0.25,
+train_step--:,epoch:0,steps:23,loss:1.6033085584640503,acc:0.25,
+train_step--:,epoch:0,steps:24,loss:1.6059569120407104,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:25,loss:1.5992153882980347,acc:0.25,
+train_step--:,epoch:0,steps:26,loss:1.5801386833190918,acc:0.5,
+train_step--:,epoch:0,steps:27,loss:1.5971364974975586,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:28,loss:1.5754828453063965,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:29,loss:1.5967873334884644,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:30,loss:1.5796656608581543,acc:0.5,
+train_step--:,epoch:0,steps:31,loss:1.5921498537063599,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:32,loss:1.5614897012710571,acc:0.5,
+train_step--:,epoch:0,steps:33,loss:1.6254035234451294,acc:0.08333333333333333,
+train_step--:,epoch:0,steps:34,loss:1.6085420846939087,acc:0.25,
+train_step--:,epoch:0,steps:35,loss:1.5913113355636597,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:36,loss:1.5940532684326172,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:37,loss:1.6018195152282715,acc:0.5,
+train_step--:,epoch:0,steps:38,loss:1.581936240196228,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:39,loss:1.5913628339767456,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:40,loss:1.6056103706359863,acc:0.25,
+train_step--:,epoch:0,steps:41,loss:1.6144804954528809,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:42,loss:1.585498332977295,acc:0.5,
+train_step--:,epoch:0,steps:43,loss:1.5603269338607788,acc:0.5,
+train_step--:,epoch:0,steps:44,loss:1.5928255319595337,acc:0.25,
+train_step--:,epoch:0,steps:45,loss:1.6278856992721558,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:46,loss:1.5668525695800781,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:47,loss:1.5868244171142578,acc:0.5,
+train_step--:,epoch:0,steps:48,loss:1.6027603149414062,acc:0.25,
+train_step--:,epoch:0,steps:49,loss:1.6094764471054077,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:50,loss:1.5660325288772583,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:51,loss:1.644630789756775,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:52,loss:1.605657935142517,acc:0.25,
+train_step--:,epoch:0,steps:53,loss:1.5811656713485718,acc:0.5,
+train_step--:,epoch:0,steps:54,loss:1.626909852027893,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:55,loss:1.552713394165039,acc:0.5,
+train_step--:,epoch:0,steps:56,loss:1.6129231452941895,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:57,loss:1.5566891431808472,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:58,loss:1.6022762060165405,acc:0.25,
+train_step--:,epoch:0,steps:59,loss:1.5659972429275513,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:60,loss:1.5820361375808716,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:61,loss:1.5869463682174683,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:62,loss:1.5698634386062622,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:63,loss:1.57736337184906,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:64,loss:1.6015344858169556,acc:0.25,
+train_step--:,epoch:0,steps:65,loss:1.6022897958755493,acc:0.4166666666666667,
+train_step--:,epoch:0,steps:66,loss:1.604593276977539,acc:0.16666666666666666,
+train_step--:,epoch:0,steps:67,loss:1.5622763633728027,acc:0.5,
+train_step--:,epoch:0,steps:68,loss:1.6052335500717163,acc:0.25,
+train_step--:,epoch:0,steps:69,loss:1.5723801851272583,acc:0.3333333333333333,
+train_step--:,epoch:0,steps:70,loss:1.5762205123901367,acc:0.4166666666666667,
